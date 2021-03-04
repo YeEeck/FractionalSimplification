@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="YeEeck" />
+    <meta charset="utf-8">
+    <meta name="generator" content="Visual Studio Code" />
+    <style type="text/css">
+        input {
+            width: 3em;
+            text-align: center;
+        }
+    </style>
+    <script src="index.js"></script>
+    <title>分数化简器</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>分数化简器</h1>
+    <input id="numA" type="text" oninput="changed('numA')" /> / <input id="numB" type="text"
+        oninput="changed('numB')" />
+    <br /><br />
+    <button onclick="simp()">化简</button>
+    <br /><br />
+    最简分数：<input id="res" type="text" style="width: 6em;" />
+</body>
+
+</html>
