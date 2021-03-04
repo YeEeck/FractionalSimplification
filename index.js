@@ -17,5 +17,5 @@ function simp() {
 
 function changed(inputId) {
     var inputElem = document.getElementById(inputId);
-    inputElem.style.width = inputElem.value.length * 8 + "px";
+    inputElem.style.width = inputElem.value.length * 8 + 8 + "px";
 }
